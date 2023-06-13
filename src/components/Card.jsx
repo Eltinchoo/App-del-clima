@@ -1,5 +1,4 @@
 import axios from "axios";
-import "../Loader.css";
 import { useEffect, useState } from "react";
 
 const Card = () => {
