@@ -5,7 +5,12 @@
   padding: 0;
   text-align: center;
 }
-
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 .card-container {
   display: flex;
   justify-content: center;
@@ -13,6 +18,10 @@
   flex-direction: column;
   text-align: center;
   color: white;
+  border: 1px solid rgba(255, 255, 255, 0.384);
+  width: 350px;
+  border-radius: 10px;
+  padding: 10px;
 }
 h1 {
   color: rgb(255, 255, 255);
@@ -35,6 +44,7 @@ button {
   color: white;
   font-weight: lighter;
   border: 1px solid rgb(196,18,18);
+  margin-bottom: 15px;
 }
 button:hover{
   background-color: rgb(255, 255, 255);
@@ -59,7 +69,7 @@ color: rgb(238, 32, 32);
 @media (min-width: 300px) {
   h1 {
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .fa-location-dot {
     color: rgb(196, 18, 18);
@@ -94,9 +104,15 @@ color: rgb(238, 32, 32);
 }
 /* Laptop */
 @media (min-width: 991px) and (max-width: 1200px) {
+.App{
+    margin-top: 50px;
+  }
 }
 /* Desktop */
 @media (min-width: 1200px) {
+  .App{
+    margin-top: 60px;
+  }
 }
 /* Loader*/
 .loader {
