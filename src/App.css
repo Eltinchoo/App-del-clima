@@ -1,0 +1,100 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+.sky-description {
+  text-transform: capitalize;
+}
+.min-max {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin-top: 25px;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(196,18,18);
+  color: white;
+  font-weight: lighter;
+  border: 1px solid rgb(196,18,18);
+}
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.fa-temperature-arrow-down{
+  color: rgb(25, 179, 179);
+}
+.fa-temperature-arrow-up{
+color: rgb(238, 32, 32);
+}
+.fa-temperature-high{
+  color: rgb(182, 122, 10);
+}
+.fa-droplet{
+  color: blue
+}
+.fa-wind{
+  color: aqua;
+}
+/* Mobile */
+@media (min-width: 300px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .fa-location-dot {
+    color: rgb(196, 18, 18);
+    font-size: 40px;
+  }
+  h2 {
+    margin-top: -10px;
+    font-weight: lighter;
+    font-size: 50px;
+  }
+  .line{
+    width: 300px;
+    height: 1px;
+    background-color:rgba(223, 224, 219, 0.322);
+    border-left: 1px solid rgba(223, 224, 219, 0.322); ;
+  }
+  .icon {
+    margin-top: -40px;
+  }
+  .sky-description{
+    font-size: 20px;
+  }
+  .min-max-temp{
+    font-size: 20px;
+  }
+  .feels-like{
+    font-size: 20px;
+  }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* Laptop */
+@media (min-width: 991px) and (max-width: 1200px) {
+}
+/* Desktop */
+@media (min-width: 1200px) {
+}
